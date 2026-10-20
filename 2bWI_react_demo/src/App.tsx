@@ -19,11 +19,44 @@ function App() {
         ))}
       </div>
 
-      <InfoList title="Iliadis" />
-      <InfoList title="Bekauri" />
-      <InfoList title="Maruyama" />
-      <InfoList title="Grigalashvili" />
-      <InfoList title="Abe" />
+      <div>
+        <Card image="https://picsum.photos/200/300" title="Test" text="text" />
+        <Card image="https://picsum.photos/200/300" title="Test" text="text" />
+        <Card image="https://picsum.photos/200/300" title="Test" text="text" />
+      </div>
+
+      <InfoList
+        title="Iliadis"
+        items={["Olympiasieger", "Griechischer Judoka", "Gold mit 17 Jahren"]}
+      />
+      <InfoList
+        title="Bekauri"
+        items={[
+          "Olympiasieger",
+          "Georgischer Judoka",
+          "Wettkampfgewicht: -90 kg",
+        ]}
+      />
+      <InfoList
+        title="Maruyama"
+        items={["Japanischer Judoka", "Bekannt für seine Ippon-Techniken"]}
+      />
+      <InfoList
+        title="Grigalashvili"
+        items={[
+          "Georgischer Judoka",
+          "Weltmeister",
+          "Bekannt für seine Bodenarbeit",
+        ]}
+      />
+      <InfoList
+        title="Abe"
+        items={[
+          "Japanischer Judoka",
+          "Olympiasieger",
+          "Bekannt für seine Technikvielfalt",
+        ]}
+      />
     </div>
   );
 }

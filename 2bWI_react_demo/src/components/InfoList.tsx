@@ -1,12 +1,16 @@
-function InfoList({ title }: { title: string }) {
+type Props = {
+  title: string;
+  items: string[];
+};
+
+function InfoList({ title, items }: Props) {
   return (
     <div className="list-block">
       <h2>{title}</h2>
       <ul className="info-list">
-        <li>Text</li>
-        <li>Text</li>
-        <li>Text</li>
-        <li>Text</li>
+        {items.map((item, index) => (
+          <li key={`${item}-${index}`}>{item}</li>
+        ))}
       </ul>
     </div>
   )
