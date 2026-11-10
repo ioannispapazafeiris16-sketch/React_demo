@@ -13,16 +13,15 @@ function App() {
           <Card
             key={judoka.title}
             title={judoka.title}
-            text={judoka.text}
             image={judoka.image}
           />
         ))}
       </div>
 
       <div>
-        <Card image="https://picsum.photos/200/300" title="Test" text="text" />
-        <Card image="https://picsum.photos/200/300" title="Test" text="text" />
-        <Card image="https://picsum.photos/200/300" title="Test" text="text" />
+        <Card image="https://picsum.photos/200/300" title="Test" />
+        <Card image="https://picsum.photos/200/300" title="Test" />
+        <Card image="https://picsum.photos/200/300" title="Test" />
       </div>
 
       <InfoList
