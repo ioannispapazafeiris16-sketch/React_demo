@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 import InfoList from "./components/InfoList";
+import CountBackwards from "./components/countbackwards";
 import judokas from "./data/judokas.json";
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         <Card image="https://picsum.photos/200/300" title="Test" />
         <Card image="https://picsum.photos/200/300" title="Test" />
       </div>
+
+      <CountBackwards start={100} />
 
       <InfoList
         title="Iliadis"
