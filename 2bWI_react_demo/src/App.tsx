@@ -1,29 +1,14 @@
 import "./App.css";
-import Card from "./components/Card";
+import Header from "./components/Header";
+import Content from "./components/Content";
 import InfoList from "./components/InfoList";
 import CountBackwards from "./components/countbackwards";
-import judokas from "./data/judokas.json";
 
 function App() {
   return (
     <div className="page">
-      <h1>Judoka</h1>
-
-      <div className="card-row">
-        {judokas.map((judoka) => (
-          <Card
-            key={judoka.title}
-            title={judoka.title}
-            image={judoka.image}
-          />
-        ))}
-      </div>
-
-      <div>
-        <Card image="https://picsum.photos/200/300" title="Test" />
-        <Card image="https://picsum.photos/200/300" title="Test" />
-        <Card image="https://picsum.photos/200/300" title="Test" />
-      </div>
+      <Header />
+      <Content />
 
       <CountBackwards start={100} />
 
