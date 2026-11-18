@@ -10,7 +10,7 @@ type Props = {
 const words = ["Ippon", "Wazaari", "Hajime", "Matte", "Osaekomi", "Judoka", "Tatami", "Sensei", "Randori", 
   "Judogi", "Dojo", "Kata", "Rei", "Ukemi", "Shiai"];
 
-export default function Card({ title, text, image }: Props) {
+export default function Card({ title,image }: Props) {
   const [random, setRandom] = useState<number>(Math.random());
   const [counter, setCounter] = useState<number>(0);
 
