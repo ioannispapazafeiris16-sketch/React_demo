@@ -1,0 +1,7 @@
+[
+  { "userId": 1, "id": 1, "title": "Ippon", "body": "Die höchste Wertung im Judo. Ein sauberer Wurf auf den Rücken mit Kraft und Kontrolle beendet den Kampf sofort." },
+  { "userId": 1, "id": 2, "title": "Waza-ari", "body": "Ein fast perfekter Wurf. Zwei Waza-ari zählen zusammen als Ippon." },
+  { "userId": 1, "id": 3, "title": "Osaekomi", "body": "Haltegriff am Boden. Wer den Gegner 20 Sekunden festhält, gewinnt mit Ippon." },
+  { "userId": 1, "id": 4, "title": "Ukemi", "body": "Die Falltechnik. Jeder Judoka lernt zuerst richtig zu fallen, damit er sich beim Wurf nicht verletzt." },
+  { "userId": 1, "id": 5, "title": "Rei", "body": "Die Verbeugung vor und nach dem Kampf. Sie zeigt Respekt vor dem Gegner, dem Sensei und dem Dojo." }
+]

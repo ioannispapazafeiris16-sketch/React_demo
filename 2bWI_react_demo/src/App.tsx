@@ -4,6 +4,7 @@ import Content from "./components/Content";
 import InfoList from "./components/InfoList";
 import CountBackwards from "./components/countbackwards";
 import School from "./components/School";
+import Todos from "./components/Todos";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           "Bekannt für seine Technikvielfalt",
         ]}
       />
+      <Todos />
     </div>
   );
 }
